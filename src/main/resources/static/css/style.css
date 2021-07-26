@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+/* ■ common : start */
+@font-face {
+    font-family: 'InkLipquid';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.height-100percent {
+	height: 100%;
+}
+
+
+.width-100percent {
+	width: 100%;
+}
+
+.display-flex {
+	display: flex;
+}
+
+.margin-auto {
+	margin: auto;
+}
+/* ■ common : end */
+
+/* ■ index.jsp : start */
+.font-title-at-index {
+	font-family: 'InkLipquid';
+	font-size: 8rem;
+	font-weight: bold;
+	margin-bottom: 2%;
+}
+
+.div-margin-bottom-at-idnex {
+	margin-bottom: 25%;
+}
+/* ■ index.jsp : end */
+
+@media(max-width: 1399.2px){
+	.font-title-at-index {
+		font-family: 'InkLipquid';
+		font-size: 7rem;
+		font-weight: bold;
+		margin-bottom: 2%;
+	}	
+	.div-margin-bottom-at-idnex {
+		margin-bottom: 30%;
+	}
+}
+@media(max-width: 1199.2px){
+	.font-title-at-index {
+		font-family: 'InkLipquid';
+		font-size: 6rem;
+		font-weight: bold;
+		margin-bottom: 2%;
+	}	
+	.div-margin-bottom-at-idnex {
+		margin-bottom: 36%;
+	}
+	.div-wrapping-btn-at-index{
+		width: 10%
+	}
+}
+@media(max-width: 991.2px){
+	.font-title-at-index {
+		font-family: 'InkLipquid';
+		font-size: 4.5rem;
+		font-weight: bold;
+		margin-bottom: 2%;
+	}	
+	.div-margin-bottom-at-idnex {
+		margin-bottom: 51%;
+	}
+	.div-wrapping-btn-at-index{
+		width: 12%
+	}
+}
+@media(max-width: 767.2px){
+	.div-margin-bottom-at-idnex {
+		margin-bottom: 70%;
+	}
+	.div-wrapping-input-text-and-btn-at-index{
+		margin-left: 13%;
+	}
+	.div-wrapping-input-text-at-index{
+		width: 60%;
+	}
+	.div-wrapping-btn-at-index{
+		width: 19%
+	}
+}
+@media(max-width: 517.6px){
+	.div-margin-bottom-at-idnex {
+		margin-bottom: 70%;
+	}
+	.div-wrapping-input-text-and-btn-at-index{
+		margin-left: 13%;
+	}
+	.div-wrapping-input-text-at-index{
+		width: 60%;
+	}
+	.div-wrapping-btn-at-index{
+		width: 22%
+	}
+}
+@media(max-width: 414px){
+	.div-margin-bottom-at-idnex {
+		margin-bottom: 90%;
+	}
+	.div-wrapping-input-text-and-btn-at-index{
+		margin-left: 0%;
+	}
+	.div-wrapping-input-text-at-index{
+		width: 73%;
+	}
+	.div-wrapping-btn-at-index{
+		width: 25%
+	}
+}
